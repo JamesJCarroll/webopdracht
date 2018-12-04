@@ -2,11 +2,12 @@ background-color: gray;
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     background-color: black;
 	position: sticky;
+	top: 0;
 }
 
 li {
@@ -21,15 +22,12 @@ li a {
     text-decoration: none;
 }
 
-/*li a:hover {
-    background-color: #111;
-}*/
 li a:hover:not(.active) {
     background-color: #111;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #CCAF50;
 }
 
 h1 {
@@ -42,7 +40,7 @@ h2{
 	color: blue;
 }
 h3 {
-	font-size: 12px;
+	font-size: 22px;
 	color: green;
 }
 
@@ -65,10 +63,23 @@ h3 p2{
 
 h3 p3{
 	font-family: arial;
-	font-size: 15px;
+	font-size: 25px;
 	color: rgb(150,130,110);
+	break-word: keep-all;
+}
+p1{
+/*font-family: calabria*/
+font-family: 25px;
+color: rgb(100,30,50);
+break-word: keep-all;	
 }
 
+p2{
+/*font-family: calabria*/
+font-family: 8px;
+color: rgb(100,30,50);
+break-word: keep-all;	
+}
 img {
 	
 }
