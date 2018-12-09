@@ -1,9 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+		<meta name = "viewport" content = "width=device-width; initial-scale = 1.0">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:italic">
-		<style> 
-		background-color: black;
-
+		<style>
+		@media only screen and (min-width : 120px) and (max-width : 360px)
+			{ background-color: green; color: yellow; font-family: Arial, Helvetica;}
+		
+		@media only screen and (min-width : 360px) and (max-width : 1080px)
+			{ background-color: blue; color: green; font-family: Tangerine, Helvetica;}
 menu ul {
     list-style: none;
     margin: auto;
@@ -107,6 +112,7 @@ img {
 				<li><a href="Index.html">Home</a></li>
 				<li><a href="SpaceX.html">SpaceX</a></li>
 				<li><a href="Tesla.html">Tesla</a></li>
+				<li><a href="bootstrap.html">bootstrap</a></li>
 				<li><a class="active" href="Contact.html">Contact</a></li>
 			</ul>
 		</menu>
