@@ -22,7 +22,8 @@ mail ($mail, $subject , $massage, $headers);
 				<li><a href="Index.html">Home</a></li>
 				<li><a href="SpaceX.html">SpaceX</a></li>
 				<li><a href="Tesla.html">Tesla</a></li>
-				<li style = "float:right"> <a class="active" href="Contact.html">Contact</a></li>
+				<li><a href="bootstrap.html">Bootstrap</a></li>
+				<li><a class="active" href="Contact.html">Contact</a></li>
 			</ul>
 		</menu>
 	  <h1>We hope you have recieved our mail</h1>

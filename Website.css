@@ -1,5 +1,8 @@
-background-color: gray;
-
+/* @media only screen and (min-width : 120px) and (max-width : 360px) */
+	/*{ background-color: green; color: yellow; font-family: Arial, Helvetica;}
+		
+@media only screen and (min-width : 360px) and (max-width : 1080px)
+	{ background-color: blue; color: green; font-family: Tangerine, Helvetica;}*/
 menu ul {
     list-style: none;
     margin: auto;
@@ -12,13 +15,13 @@ menu ul {
 
 menu ul li {
 	list-style: none;
-    float: right;
+    float: left;
 }
 
 menu ul li a {
 	list-style: none;
     display: block;
-    color: green;
+    color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,15 +32,15 @@ menu ul li a {
 
 menu ul li a:hover:not(.active) {
 	list-style: none;
-    background-color: #111;
+    background-color: #a11a11;
 }
 
 .active {
-    background-color: #CCAF50;
+    background-color: #a0fFa0;
 }
 
 h1 {
-	font-family: arial;
+	font-family: 'Tangerine', serif;
 	font-size: 20px;
 	color: red;
 }
@@ -47,42 +50,41 @@ h2{
 }
 
 h2 p {
-	font-family: arial;
+	font-family: 'Tangerine', serif;
 	color: rgb(200,200,0);
 }
 
 h3 {
+	font-family: 'Tangerine', serif;
 	font-size: 22px;
 	color: green;
 }
 
 h3 p1{
-	font-family: arial;
+	font-family: 'Tangerine', serif;
 	font-size: 15px;
 	color: rgb(100,110,120);
 }
 
 h3 p2{
-	font-family: arial;
+	font-family: 'Tangerine', serif;
 	font-size: 15px;
 	color: rgb(200,210,220);
 }
 
 h3 p3{
-	font-family: arial;
+	font-family: Arial;
 	font-size: 25px;
 	color: rgb(150,130,110);
 	break-word: keep-all;
 }
 p1{
-/*font-family: calabria*/
 font-family: 25px;
 color: rgb(100,30,50);
 break-word: keep-all;	
 }
 
 p2{
-/*font-family: calabria*/
 font-family: 8px;
 color: rgb(100,30,50);
 break-word: keep-all;	
