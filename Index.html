@@ -1,44 +1,141 @@
 <html>
-    <head> 
-        <link rel="stylesheet" href="Website.css" >  
+    <head>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:italic">
+		<style> 
+		background-color: black;
 
+menu ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	position: sticky;
+	top: 0;
+}
+
+menu ul li {
+	list-style: none;
+    float: left;
+}
+
+menu ul li a {
+	list-style: none;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Tangerine', serif;
+	font-size: 20px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+menu ul li a:hover:not(.active) {
+	list-style: none;
+    background-color: #a11a11;
+}
+
+.active {
+    background-color: #a0fFa0;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 20px;
+	color: red;
+}
+h2{
+	font-size: 15px;
+	color: blue;
+}
+
+h2 p {
+	font-family: arial;
+	color: rgb(200,200,0);
+}
+
+h3 {
+	font-size: 22px;
+	color: green;
+}
+
+h3 p1{
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(100,110,120);
+}
+
+h3 p2{
+	font-family: arial;
+	font-size: 15px;
+	color: rgb(200,210,220);
+}
+
+h3 p3{
+	font-family: arial;
+	font-size: 25px;
+	color: rgb(150,130,110);
+	break-word: keep-all;
+}
+p1{
+/*font-family: calabria*/
+font-family: 25px;
+color: rgb(100,30,50);
+break-word: keep-all;	
+}
+
+p2{
+/*font-family: calabria*/
+font-family: 8px;
+color: rgb(100,30,50);
+break-word: keep-all;	
+}
+
+img {
+	
+}
+
+		</style>  
+<!-- <link rel="stylesheet" href="Website.css" > -->
         <title> Over ons </title>
     </head>
-        <body>
-            <h1>Team 31</h1>
-            <ul>
-                <li><a href="Index.html">Home</a></li>
-                <li><a href="SpaceX.html">SpaceX</a></li>
-                <li><a href="Tesla.html">Tesla</a></li>
-                <li style = "float:right"> <a class="active" href="Contact.html">Contact</a></li>
-            </ul>
-
-            <br>
-            <br>
-
-            <h2>Onze website</h2>
-                <p>Hallo! Wij zijn Victor, James en Gerrit. Op deze site kun je informatie over ons vinden en vertellen wij wat over Tesla en SpaceX. 
-                    Dit zijn (was) allemaal projecten van Elon Musk. Ookal hebben sommigen van ons geen affectie met ELon Musk, wordt het toch geforceerd te doen :).</p>
-            <h3>Over team 31</h3>
-                <p1>Victor heeft een hond en houdt van lange wandelingen over het strand. Het liefst loopt hij de zonsondergang tegemoet 
-                    met een blik pils en zijn favoriete liedje op de achtergrond: "Culture club - Karma Chameleon". 
-                </p1>
-                <br>
-                <br>
-                <p2><img src="james.jpg" alt="James">
-                    <br>
-                    James is een lompe boer uit het noorden van het land. Op zijn aardappelboerderij kweekt hij al jaren lang aardappels.
-                    Wist je dat aardappels een diameter kunnen krijgen van wel 21 centimeter?! Geweldig! 
-                    Verder vindt James het geweldig om zichzelf in te smeren met vaseline en te doen alsof hij een een slak is. 
-                </p2>
-                <br>
-                <br>
-                <p3>Gerrit heeft de groep verlaten. Gerrit is weg, groep is verdrietig
-                <br>
-                <img src="grafsteenklein.png" alt="grafsteen">
-                <br>
-                    RIP Gerrit 2018-2018
-                </p3>
-        </body>
+	<body>
+		<h1>Team 31</h1>
+		<menu>
+			<ul>
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="SpaceX.html">SpaceX</a></li>
+				<li><a href="Tesla.html">Tesla</a></li>
+				<li><a class="active" href="Contact.html">Contact</a></li>
+			</ul>
+		</menu>
+		<br>
+		<br>
+		<br>
+		<h2>Onze website</h2>
+			<p>Hallo! Wij zijn Victor, James en Gerrit. Op deze site kun je informatie over ons vinden en vertellen wij wat over Tesla en SpaceX. 
+				Dit zijn (waren) allemaal projecten van Elon Musk. Ookal hebben sommigen van ons geen affectie met ELon Musk, wordt het toch geforceerd te doen :).</p>
+		<h3>Over team 31</h3>
+			<p1>Victor heeft een hond en houdt van lange wandelingen over het strand. Het liefst loopt hij de zonsondergang tegemoet 
+				met een blik pils en zijn favoriete liedje op de achtergrond: "Culture club - Karma Chameleon". 
+			</p1>
+			<br>
+			<br>
+			<p2><img src="james.jpg" alt="James">
+				<br>
+				James is een lompe boer uit het noorden van het land. Op zijn aardappelboerderij kweekt hij al jaren lang aardappels.
+				Wist je dat aardappels een diameter kunnen krijgen van wel 21 centimeter?! Geweldig! 
+				Verder vindt James het geweldig om zichzelf in te smeren met vaseline en te doen alsof hij een een slak is. 
+			</p2>
+			<br>
+			<br>
+			<p3>Gerrit heeft de groep verlaten. Gerrit is weg, groep is verdrietig
+			<br>
+			<img src="grafsteenklein.png" alt="grafsteen">
+			<br>
+				RIP Gerrit 2018-2018
+			</p3>
+	</body>
 </html>
 

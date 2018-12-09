@@ -1,7 +1,7 @@
 background-color: gray;
 
-ul {
-    list-style-type: none;
+menu ul {
+    list-style: none;
     margin: auto;
     padding: 0;
     overflow: hidden;
@@ -10,19 +10,25 @@ ul {
 	top: 0;
 }
 
-li {
-    float: left;
+menu ul li {
+	list-style: none;
+    float: right;
 }
 
-li a {
+menu ul li a {
+	list-style: none;
     display: block;
     color: green;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	font-family: 'Tangerine', serif;
+	font-size: 20px;
+	text-shadow: 4px 4px 4px #aaa;
 }
 
-li a:hover:not(.active) {
+menu ul li a:hover:not(.active) {
+	list-style: none;
     background-color: #111;
 }
 
@@ -39,14 +45,15 @@ h2{
 	font-size: 15px;
 	color: blue;
 }
+
+h2 p {
+	font-family: arial;
+	color: rgb(200,200,0);
+}
+
 h3 {
 	font-size: 22px;
 	color: green;
-}
-
-p {
-	font-family: arial;
-	color: rgb(200,200,0);
 }
 
 h3 p1{
@@ -80,6 +87,7 @@ font-family: 8px;
 color: rgb(100,30,50);
 break-word: keep-all;	
 }
+
 img {
 	
 }
