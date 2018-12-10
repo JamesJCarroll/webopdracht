@@ -49,6 +49,9 @@ menu ul li a:hover:not(.active) {
     background-color: #a0fFa0;
 }
 
+
+/* h1, h2 en h3 worden gebruikt in Index.html
+h2 is ook te vinden in SpaceX.html en Tesla.html */
 h1 {
 	font-family: Castellar;
 	font-size: 30px;
@@ -66,12 +69,15 @@ h3 {
 	color: rgb(136, 137, 247);
 }
 
+/*h4 wordt gebruikt in Contact.html*/
 h4 {
 	font-family: Castellar;;
 	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
+
+/* p wordt gebruikt in Index.html en SpaceX.html */
 p {
 	font-family: CopperPlate Gothic Bold;
 	font-size: 18px;
@@ -96,6 +102,10 @@ p3{
 	color: rgb(255, 255, 255);
 	break-word: keep-all;
 }
+
+
+/* p4 en p5 worden gebruikt in Contact.html 
+p5 wordt ook gebruikt in SpaceX.html en Tesla.html voor bronvermelding*/
 
 p4{
 	font-family: CopperPlate Gothic Bold;
