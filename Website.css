@@ -53,19 +53,25 @@ menu ul li a:hover:not(.active) {
 h1 {
 	font-family: Castellar;
 	font-size: 25px;
-	color: rgb(255, 255, 255);
+	color: rgb(136, 137, 247);
 }
 h2{
 	font-family: Castellar;
 	font-size: 22px;
-	color: rgb(255, 255, 255);
+	color: rgb(136, 137, 247);
 }
 
 
 h3 {
 	font-family: Castellar;;
 	font-size: 22px;
-	color: rgb(255, 255, 255);
+	color: rgb(136, 137, 247);
+}
+
+h4 {
+	font-family: Castellar;;
+	font-size: 25px;
+	color: rgb(136, 137, 247);
 }
 
 p {
