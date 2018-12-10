@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* Smartphones (portrait). iPhone X */
+@media only screen and (min-width : 100px) and (max-width : 375px) 
+{
+ background-color: green;
+}
+
+/* Tablet (portrait).  Ipad 2*/
+@media only screen and (min-width : 376px) and (max-width :  768px) 
+{
+ background-color: blue;
+}
+
+/* Laptop/PC.  */
+@media only screen and (min-width : 769px) and (max-width :  1920px) 
+{
+/* Styles */
+ background-color: red;
+}

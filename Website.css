@@ -1,8 +1,22 @@
-@media only screen and (min-width : 120px) and (max-width : 360px)
-	{ background-color: green; color: yellow; font-family: Arial, Helvetica;}
-		
-@media only screen and (min-width : 360px) and (max-width : 1080px)
-	{ background-color: blue; color: green; font-family: Tangerine, Helvetica;}
+/* Smartphones (portrait). iPhone X */
+@media only screen and (min-width : 100px) and (max-width : 375px) 
+{
+ background-color: green;
+}
+
+/* Tablet (portrait).  Ipad 2*/
+@media only screen and (min-width : 376px) and (max-width :  768px) 
+{
+ background-color: blue;
+}
+
+/* Laptop/PC.  laptop */
+@media only screen and (min-width : 769px) and (max-width :  1920px) 
+{
+/* Styles */
+ background-color: red;
+}
+
 menu ul {
     list-style: none;
     margin: auto;

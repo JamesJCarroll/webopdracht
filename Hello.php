@@ -6,7 +6,7 @@ fwrite($info, $naam);
 fwrite($info, $email);
 fclose($info);
 $subject = "header";
-$massage = " Hello " . $naam . ", \r\n\r\n Thank you for subscribing!";
+$massage = " Hello " . $naam . ", \r\n\r\n Thank you for subscribing! team 31";
 $headers = "from: j.j.carroll@students.uu.nl \r\n Reply-To: mail@mail.com \r\n X-mailer: PHP/" . phpversion();
 mail ($mail, $subject , $massage, $headers);
 ?>
@@ -14,7 +14,7 @@ mail ($mail, $subject , $massage, $headers);
     <head>  
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="Website.css" >
-        <title> Mail sent </title>
+        <title>Mail sent</title>
     </head>
 	<body>
 		<menu>
@@ -26,6 +26,9 @@ mail ($mail, $subject , $massage, $headers);
 				<li><a class="active" href="Contact.html">Contact</a></li>
 			</ul>
 		</menu>
-	  <h1>We hope you have recieved our mail</h1>
+	  <h1> beste
+	  <? Echo $naam; ?> </h1>
+	  <h2><br>We hope you have recieved our mail <br> we will send a email to <? echo $email ?> .</h2>
+	  <h3> kind regrards, team 31</h3> 
 	</body>
 </html>
