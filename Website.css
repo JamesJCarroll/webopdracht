@@ -60,14 +60,15 @@ h2{
 	color: rgb(255, 255, 255);
 }
 
-h2 p {
-	font-family: 'Tangerine', serif;
-	color: rgb(255, 255, 255);
-}
 
 h3 {
 	font-family: 'Tangerine', serif;
 	font-size: 22px;
+	color: rgb(255, 255, 255);
+}
+
+p {
+	font-family: 'Tangerine', serif;
 	color: rgb(255, 255, 255);
 }
 
@@ -77,7 +78,7 @@ p1{
 	color: rgb(255, 255, 255);
 }
 
-h3 p2{
+p2{
 	font-family: 'Tangerine', serif;
 	font-size: 15px;
 	color: rgb(255, 255, 255);
@@ -88,17 +89,6 @@ p3{
 	font-size: 25px;
 	color: rgb(255, 255, 255);
 	break-word: keep-all;
-}
-p{
-font-family: 25px;
-color: rgb(255, 255, 255);
-break-word: keep-all;	
-}
-
-p2{
-font-family: 8px;
-color: rgb(255, 255, 255);
-break-word: keep-all;	
 }
 
 img {
