@@ -1,7 +1,7 @@
 <?php
 $naam = $_POST['Naam'];
 $email = $_POST['Email']
-$info = fopen($naam . ".txt", "a");
+$info = fopen($naam, ".txt", "a");
 fwrite($info, $naam);
 fwrite($info, $email);
 fclose($info);
@@ -27,16 +27,12 @@ mail ($mail, $subject , $massage, $headers);
 			</ul>
 		</menu>
 
-		<html>
-<body>
-
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
-
-</body>
-</html>
-	  <h1> beste <? Echo $naam; ?> </h1>
-	  <h2><br>We hope you have recieved our mail <br> we will send a email to <? echo $email ?> .</h2>
-	  <h3> kind regrards, team 31</h3> 
+		
+	  <p> beste <? Echo $naam; ?> </p>
+	  <br>
+	  <p>We hope you have recieved our mail <br>
+	   we will send a email to <? echo $email ?> .</p>
+	   <br>
+	  <p> kind regrards, team 31</p> 
 	</body>
 </html>
