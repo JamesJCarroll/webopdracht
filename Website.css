@@ -68,24 +68,25 @@ h3 {
 }
 
 p {
-	font-family: 'Tangerine', serif;
+	font-family: Castellar;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
 p1{
-	font-family: 'Tangerine', serif;
-	font-size: 15px;
+	font-family: Castellar;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
 p2{
-	font-family: 'Tangerine', serif;
-	font-size: 15px;
+	font-family: CopperPlate Gothic Bold;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
 p3{
-	font-family: Arial;
+	font-family: CopperPlate Gothic Bold;
 	font-size: 25px;
 	color: rgb(255, 255, 255);
 	break-word: keep-all;
