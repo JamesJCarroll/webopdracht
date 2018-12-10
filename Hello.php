@@ -6,9 +6,9 @@ fwrite($info, $naam);
 fwrite($info, $email);
 fclose($info);
 $subject = "header";
-$massage = " Hello " . $naam . ", \r\n\r\n Thank you for subscribing! team 31";
+$message = " Hello " . $naam . ", \r\n\r\n Thank you for subscribing! team 31";
 $headers = "from: j.j.carroll@students.uu.nl \r\n Reply-To: mail@mail.com \r\n X-mailer: PHP/" . phpversion();
-mail ($mail, $subject , $massage, $headers);
+mail ($email, $subject , $message, $headers);
 ?>
 <html>
     <head>  
