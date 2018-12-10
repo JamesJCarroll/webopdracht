@@ -1,7 +1,7 @@
 /* Smartphones (portrait). iPhone X */
 body{
 /*@media only screen and (min-width : 100px) and (max-width : 375px) */
-  background-color: rgb(20, 18, 153); }
+  background-color: rgb(10, 9, 83); }
 
 /*body{
 /* Tablet (portrait).  Ipad 2*/
@@ -53,7 +53,7 @@ menu ul li a:hover:not(.active) {
 h1 {
 	font-family: 'Tangerine', serif;
 	font-size: 25px;
-	color: rgb(163, 153, 252);
+	color: rgb(255, 255, 255);
 }
 h2{
 	font-size: 15px;
@@ -62,42 +62,42 @@ h2{
 
 h2 p {
 	font-family: 'Tangerine', serif;
-	color: rgb(200,200,0);
+	color: rgb(255, 255, 255);
 }
 
 h3 {
 	font-family: 'Tangerine', serif;
 	font-size: 22px;
-	color: rgb(1, 73, 145);
+	color: rgb(255, 255, 255);
 }
 
 h3 p1{
 	font-family: 'Tangerine', serif;
 	font-size: 15px;
-	color: rgb(1, 73, 145);
+	color: rgb(255, 255, 255);
 }
 
 h3 p2{
 	font-family: 'Tangerine', serif;
 	font-size: 15px;
-	color: rgb(1, 73, 145);
+	color: rgb(255, 255, 255);
 }
 
 h3 p3{
 	font-family: Arial;
 	font-size: 25px;
-	color: rgb(1, 73, 145);
+	color: rgb(255, 255, 255);
 	break-word: keep-all;
 }
 p{
 font-family: 25px;
-color: rgb(100,30,50);
+color: rgb(255, 255, 255);
 break-word: keep-all;	
 }
 
 p2{
 font-family: 8px;
-color: rgb(100,30,50);
+color: rgb(255, 255, 255);
 break-word: keep-all;	
 }
 
