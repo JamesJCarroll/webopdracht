@@ -32,11 +32,11 @@ menu ul li {
 menu ul li a {
 	list-style: none;
     display: block;
-    color: blue;
+    color: rgb(250, 100, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-family: 'Tangerine', serif;
+	font-family: Castellar;
 	font-size: 20px;
 	text-shadow: 4px 4px 4px #aaa;
 }
