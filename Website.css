@@ -38,7 +38,6 @@ menu ul li a {
     text-decoration: none;
 	font-family: Castellar;
 	font-size: 20px;
-	text-shadow: 4px 4px 4px #aaa;
 }
 
 menu ul li a:hover:not(.active) {
