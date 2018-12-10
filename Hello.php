@@ -28,11 +28,12 @@ mail ($mail, $subject , $massage, $headers);
 		</menu>
 
 		
-	  <p> beste <? Echo $naam; ?> </p>
-	  <br>
-	  <p>We hope you have recieved our mail <br>
-	   we will send an email to <? echo $email ?> .</p>
-	   <br>
-	  <p> kind regrards, team 31</p> 
+	  <p> beste <?php Echo $naam; ?> </p>
+	  <br><br>
+	 	We sturen een email naar: <?php echo $email ?> . <br>
+	  	We hopen dat je onze mail ontvangt! <br>
+	   <br><br>
+		Groetjes, team 31
+		</p>
 	</body>
 </html>
