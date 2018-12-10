@@ -28,9 +28,9 @@ mail ($mail, $subject , $massage, $headers);
 		</menu>
 
 		
-	  <p> beste <?php echo $naam; ?>
+	  <p> beste <?php echo $_POST["Naam"]; ?>
 	  <br><br>
-	 	We sturen een email naar: <?php echo $email; ?> . <br>
+	 	We sturen een email naar: <?php echo $_POST["Email"]; ?> . <br>
 	  	We hopen dat je onze mail ontvangt! <br>
 	   <br><br>
 		Groetjes, team 31
