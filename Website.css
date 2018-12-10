@@ -51,43 +51,44 @@ menu ul li a:hover:not(.active) {
 }
 
 h1 {
-	font-family: 'Tangerine', serif;
+	font-family: Castellar;
 	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 h2{
-	font-size: 15px;
+	font-family: Castellar;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
 
 h3 {
-	font-family: 'Tangerine', serif;
-	font-size: 22px;
+	font-family: Castellar;;
+	font-size: 25px;
 	color: rgb(255, 255, 255);
 }
 
 p {
-	font-family: Castellar;
-	font-size: 25px;
+	font-family: CopperPlate Gothic Bold;
+	font-size: 15px;
 	color: rgb(255, 255, 255);
 }
 
 p1{
-	font-family: Castellar;
-	font-size: 25px;
+	font-family: CopperPlate Gothic Bold;
+	font-size: 15px;
 	color: rgb(255, 255, 255);
 }
 
 p2{
 	font-family: CopperPlate Gothic Bold;
-	font-size: 25px;
+	font-size: 15px;
 	color: rgb(255, 255, 255);
 }
 
 p3{
 	font-family: CopperPlate Gothic Bold;
-	font-size: 25px;
+	font-size: 15px;
 	color: rgb(255, 255, 255);
 	break-word: keep-all;
 }
