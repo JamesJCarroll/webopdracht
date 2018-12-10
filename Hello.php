@@ -12,7 +12,7 @@ mail ($mail, $subject , $massage, $headers);
 ?>
 <html>
     <head>  
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="Website.css" >
         <title> Mail sent </title>
     </head>

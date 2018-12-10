@@ -1,8 +1,8 @@
-/* @media only screen and (min-width : 120px) and (max-width : 360px) */
-	/*{ background-color: green; color: yellow; font-family: Arial, Helvetica;}
+@media only screen and (min-width : 120px) and (max-width : 360px)
+	{ background-color: green; color: yellow; font-family: Arial, Helvetica;}
 		
 @media only screen and (min-width : 360px) and (max-width : 1080px)
-	{ background-color: blue; color: green; font-family: Tangerine, Helvetica;}*/
+	{ background-color: blue; color: green; font-family: Tangerine, Helvetica;}
 menu ul {
     list-style: none;
     margin: auto;
@@ -41,7 +41,7 @@ menu ul li a:hover:not(.active) {
 
 h1 {
 	font-family: 'Tangerine', serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: red;
 }
 h2{
@@ -78,7 +78,7 @@ h3 p3{
 	color: rgb(150,130,110);
 	break-word: keep-all;
 }
-p1{
+p{
 font-family: 25px;
 color: rgb(100,30,50);
 break-word: keep-all;	

@@ -1,6 +1,6 @@
 <html>
     <head>  
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:italic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="Website.css" >
 
         <title> Contact </title>
@@ -17,13 +17,14 @@
 		</menu>
 	  <br>
 	  <br>
-	  <p>Wil je een berichtje van ons? Dan moet je even je naam en email invoeren</p>
+	  <h1>Wil je een berichtje van ons?</h1>
+	  <h2>Dan moet je even je naam en email invoeren</h2>
 	  <br>
-	  <br>
+	  <br><h3>
 		<form action = "hello.php" method = "post">
-		Naam: <input type = "text" name = "naam"> <br>
-		Email <input type = "text" name = "email"> <br>
-		<input name ="request" type ="submit" value = "Ga">
-		</form>		  
+		Naam: <input type = "text" name = "naam" required> <br>
+		Email <input type = "text" name = "email" required> <br>
+		<input name ="request" type ="submit" value = "Verstuur">
+		</form></h3>		  
 	</body>
 </html>
