@@ -50,6 +50,11 @@ menu ul li a:hover:not(.active) {
 }
 
 
+i {
+	font-size: 30px;
+	color: rgb(250, 100, 0)
+}
+
 /* h1, h2 en h3 worden gebruikt in Index.html
 h2 is ook te vinden in SpaceX.html en Tesla.html */
 h1 {
