@@ -53,11 +53,11 @@ menu ul li a:hover:not(.active) {
 h1 {
 	font-family: 'Tangerine', serif;
 	font-size: 25px;
-	color: red;
+	color: rgb(163, 153, 252);
 }
 h2{
 	font-size: 15px;
-	color: blue;
+	color: rgb(255, 255, 255);
 }
 
 h2 p {
@@ -68,25 +68,25 @@ h2 p {
 h3 {
 	font-family: 'Tangerine', serif;
 	font-size: 22px;
-	color: green;
+	color: rgb(1, 73, 145);
 }
 
 h3 p1{
 	font-family: 'Tangerine', serif;
 	font-size: 15px;
-	color: rgb(100,110,120);
+	color: rgb(1, 73, 145);
 }
 
 h3 p2{
 	font-family: 'Tangerine', serif;
 	font-size: 15px;
-	color: rgb(200,210,220);
+	color: rgb(1, 73, 145);
 }
 
 h3 p3{
 	font-family: Arial;
 	font-size: 25px;
-	color: rgb(150,130,110);
+	color: rgb(1, 73, 145);
 	break-word: keep-all;
 }
 p{
