@@ -57,39 +57,53 @@ h1 {
 }
 h2{
 	font-family: Castellar;
-	font-size: 25px;
+	font-size: 22px;
 	color: rgb(255, 255, 255);
 }
 
 
 h3 {
 	font-family: Castellar;;
-	font-size: 25px;
+	font-size: 22px;
 	color: rgb(255, 255, 255);
 }
 
 p {
 	font-family: CopperPlate Gothic Bold;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
 }
 
 p1{
 	font-family: CopperPlate Gothic Bold;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
 }
 
 p2{
 	font-family: CopperPlate Gothic Bold;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
 }
 
 p3{
 	font-family: CopperPlate Gothic Bold;
-	font-size: 15px;
+	font-size: 18px;
 	color: rgb(255, 255, 255);
+	break-word: keep-all;
+}
+
+p4{
+	font-family: CopperPlate Gothic Bold;
+	font-size: 20px;
+	color: rgb(136, 137, 247);
+	break-word: keep-all;
+}
+
+p5{
+	font-family: CopperPlate Gothic Bold;
+	font-size: 18px;
+	color: rgb(136, 137, 247);
 	break-word: keep-all;
 }
 
