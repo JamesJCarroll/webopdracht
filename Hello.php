@@ -28,7 +28,7 @@ mail ($mail, $subject , $massage, $headers);
 		</menu>
 
 		
-	  <p> beste <?php Echo $naam; ?> </p>
+	  <p> beste <?php Echo $naam; ?>
 	  <br><br>
 	 	We sturen een email naar: <?php echo $email ?> . <br>
 	  	We hopen dat je onze mail ontvangt! <br>
