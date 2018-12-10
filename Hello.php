@@ -1,6 +1,6 @@
 <?php
 $naam = $_POST['Naam'];
-$email = $_POST['Email']
+$email = $_POST['Email'];
 $info = fopen($naam. ".txt", "a");
 fwrite($info, $naam);
 fwrite($info, $email);
