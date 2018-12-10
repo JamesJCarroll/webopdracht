@@ -22,15 +22,15 @@ mail ($mail, $subject , $massage, $headers);
 				<li><a href="Index.html">Home</a></li>
 				<li><a href="SpaceX.html">SpaceX</a></li>
 				<li><a href="Tesla.html">Tesla</a></li>
-				<li><a href="bootstrap.html">Onze geweldige docent</a></li>
+				<li><a href="bootstrap.html">Onze geweldige docenten</a></li>
 				<li><a class="active" href="Contact.html">Contact</a></li>
 			</ul>
 		</menu>
 
 		
-	  <p> beste <?php echo $_GET["Naam"]; ?>
+	  <p> beste <?php echo $_GET[$naam]; ?>
 	  <br><br>
-	 	We sturen een email naar: <?php echo $_GET["Email"]; ?> . <br>
+	 	We sturen een email naar: <?php echo $_GET[$email]; ?> . <br>
 	  	We hopen dat je onze mail ontvangt! <br>
 	   <br><br>
 		Groetjes, team 31
