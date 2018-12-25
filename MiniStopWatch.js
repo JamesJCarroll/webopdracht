@@ -10,9 +10,11 @@ window.onload = function () {
 
   buttonStart.onclick = function() {  
      clearInterval(Interval);
+	 window.scrollTo(0, 0);
      Interval = setInterval(startTimer, 10); }
   
-    buttonStop.onclick = function() { clearInterval(Interval); }
+    buttonStop.onclick = function() { clearInterval(Interval);
+		window.scrollTo(0,4200);}
   
   buttonReset.onclick = function() {
      clearInterval(Interval);
@@ -20,6 +22,7 @@ window.onload = function () {
   	seconds = "00";
     appendTens.innerHTML = tens;
   	appendSeconds.innerHTML = seconds; }
+	
   function startTimer () { tens++;    
     if(tens < 9){ appendTens.innerHTML = "0" + tens; }   
     if (tens > 9){ appendTens.innerHTML = tens; }    

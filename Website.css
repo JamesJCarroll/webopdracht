@@ -15,42 +15,6 @@
  background-color: red; }
 */
 
-.dropbtn {
-	background-color: #4CAF50;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
-}
-
-.dropdown{
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown-content a:hover{
-	background-color: #ddd;	
-}
-
-.dropdown: hover .dropdown-content {
-	display: block;
-}
-
-.dropdown: hover .dropbtn {
-	background-color: #3e8e41;
-}	
-
-
-
 menu ul {
     list-style: none;
     margin: auto;
@@ -104,65 +68,15 @@ h2{
 	font-size: 22px;
 	color: rgb(136, 137, 247);
 }
-
-h3 {
-	font-family: Castellar;;
-	font-size: 22px;
+h3{
+	font-family: Castellar;
+	font-size: 20px;
 	color: rgb(136, 137, 247);
 }
-
-/*h4 wordt gebruikt in Contact.html*/
-h4 {
-	font-family: Castellar;;
-	font-size: 25px;
-	color: rgb(255, 255, 255);
-}
-
 
 /* p wordt gebruikt in Index.html en SpaceX.html */
 p {
 	font-family: CopperPlate Gothic Bold;
 	font-size: 18px;
-	color: rgb(255, 255, 255);
-}
-
-p1{
-	font-family: CopperPlate Gothic Bold;
-	font-size: 18px;
-	color: rgb(255, 255, 255);
-}
-
-p2{
-	font-family: CopperPlate Gothic Bold;
-	font-size: 18px;
-	color: rgb(255, 255, 255);
-}
-
-p3{
-	font-family: CopperPlate Gothic Bold;
-	font-size: 18px;
-	color: rgb(255, 255, 255);
-	break-word: keep-all;
-}
-
-
-/* p4 en p5 worden gebruikt in Contact.html 
-p5 wordt ook gebruikt in SpaceX.html en Tesla.html voor bronvermelding*/
-
-p4{
-	font-family: CopperPlate Gothic Bold;
-	font-size: 20px;
-	color: rgb(136, 137, 247);
-	break-word: keep-all;
-}
-
-p5{
-	font-family: CopperPlate Gothic Bold;
-	font-size: 18px;
-	color: rgb(136, 137, 247);
-	break-word: keep-all;
-}
-
-img {
-	
+	color: rgb(2, 25, 255);
 }
