@@ -6,7 +6,7 @@ window.onload = function () {
   var buttonStart = document.getElementById('button-start');
   var buttonStop = document.getElementById('button-stop');
   var buttonReset = document.getElementById('button-reset');
-  var Interval ;
+  var Interval;
 
   buttonStart.onclick = function() {  
      clearInterval(Interval);
@@ -14,7 +14,7 @@ window.onload = function () {
      Interval = setInterval(startTimer, 10); }
   
     buttonStop.onclick = function() { clearInterval(Interval);
-		window.scrollTo(0,4200);}
+		window.scrollTo(0,5600);}
   
   buttonReset.onclick = function() {
      clearInterval(Interval);
