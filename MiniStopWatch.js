@@ -10,7 +10,7 @@ window.onload = function () {
 
   buttonStart.onclick = function() {  
      clearInterval(Interval);
-	 window.scrollTo(0, 0);
+	 window.scrollTo(0, 620);
      Interval = setInterval(startTimer, 10); }
   
     buttonStop.onclick = function() { clearInterval(Interval);
